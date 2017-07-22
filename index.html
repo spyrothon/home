@@ -1,0 +1,67 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <style>
+      html {
+        height: 100vh;
+        width: 100vw;
+        overflow: 100%;
+      }
+
+      body {
+        height: 100vh;
+        width: 100vw;
+        overflow: hidden;
+        margin: 0;
+        background-image: url('full_bg_phone.png');
+        background-size: cover;
+        background-position: center bottom;
+        font-family: Gill Sans, Helvetica Neue, Arial;
+        background-color: #3e1d4a;
+        color: #e3dae6;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }
+
+      .actions {
+        width: 300px;
+        display: flex;
+        justify-content: space-around;
+      }
+
+      a, button {
+        display: inline-block;
+        padding: 8px 24px;
+        background: rgba(227,218,230,0.3);
+        border: 2px solid rgba(227,218,230,0.35);
+        border-radius: 30px;
+        color: #3e1d4a;
+        text-align: center;
+        text-decoration: none;
+      }
+
+      a:hover, button:hover {
+        background: rgba(227,218,230,0.4);
+        border: 2px solid rgba(227,218,230,0.45);
+      }
+
+
+      @media(min-aspect-ratio: 9/12) {
+        body {
+          background-image: url('full_bg_portrait.png');
+        }
+      }
+
+      @media(min-aspect-ratio: 10/11) {
+        body {
+          background-image: url('full_bg.png');
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+  </body>
+</html>
