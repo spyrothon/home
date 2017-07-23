@@ -16,7 +16,7 @@ hr {
   border-color: #c4adca;
 }
 
-small {
+p, small {
   color: #c4adca;
 }
 
@@ -123,7 +123,7 @@ nav.navbar-component {
   }
 
   .content .schedule .schedule-list {
-    height: 520px;
+    height: 490px;
     overflow: scroll;
     overflow-x: hidden;
   }
