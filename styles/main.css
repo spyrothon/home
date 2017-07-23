@@ -4,10 +4,11 @@
 
 body {
   margin: 0;
-  font-family: Skolar Sans Latin, Helvetica Neue, Arial;
+  font-family: skolar-sans-latin, Helvetica Neue, Arial;
   background-color: #5a3463;
   color: #fff;
   line-height: 1.5em;
+  overflow-x: hidden;
 }
 
 hr {
