@@ -1,67 +1,73 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
-    <style>
-      html {
-        height: 100vh;
-        width: 100vw;
-        overflow: 100%;
-      }
-
-      body {
-        height: 100vh;
-        width: 100vw;
-        overflow: hidden;
-        margin: 0;
-        background-image: url('full_bg_phone.png');
-        background-size: cover;
-        background-position: center bottom;
-        font-family: Gill Sans, Helvetica Neue, Arial;
-        background-color: #3e1d4a;
-        color: #e3dae6;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-      }
-
-      .actions {
-        width: 300px;
-        display: flex;
-        justify-content: space-around;
-      }
-
-      a, button {
-        display: inline-block;
-        padding: 8px 24px;
-        background: rgba(227,218,230,0.3);
-        border: 2px solid rgba(227,218,230,0.35);
-        border-radius: 30px;
-        color: #3e1d4a;
-        text-align: center;
-        text-decoration: none;
-      }
-
-      a:hover, button:hover {
-        background: rgba(227,218,230,0.4);
-        border: 2px solid rgba(227,218,230,0.45);
-      }
-
-
-      @media(min-aspect-ratio: 9/12) {
-        body {
-          background-image: url('full_bg_portrait.png');
-        }
-      }
-
-      @media(min-aspect-ratio: 10/11) {
-        body {
-          background-image: url('full_bg.png');
-        }
-      }
-    </style>
+    <link rel="stylesheet" href="styles/main.css">
   </head>
 
   <body>
+    <nav class="navbar-component">
+      <div class="widthed">
+        <div class="navigation">
+          <a href="" class="brand">Spyrothon</a>
+
+          <a href="https://twitch.tv/spyrothon" class="right" target="_blank">Twitch</a>
+          <a href="https://youtu.be/y-vHOO-bN2U" class="right" target="_blank">Trailer</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="banner">
+      <img class="title widthed" src="assets/spyrothon_logo.png">
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="widthed">
+        <content>
+          <div class="about">
+            <h1 class="page-header">About</h1>
+            <dl class="faq">
+              <dt>What is Spyrothon?</dt>
+              <dd>
+                Spyrothon began in 2015 as a fun mini-marathon for Spyro speedrunning. It was continued in 2016 and this year we are continuing the tradition, with the hopes that this year's marathon is the best one yet in terms of entertainment and stream quality. Spyrothon will take place from <strong>August 11th-12th 2017</strong>, starting at <strong>11PM UTC on the 11th</strong>, and going until roughly <strong>1:30AM UTC on the 13th</strong>.
+              </dd>
+
+              <dt>What is the point of Spyrothon?</dt>
+              <dd>
+                There were talks about what the purpose of Spyrothon is recently, but it quickly became clear that the main point is to just have fun. We want new, current, and old runners to enjoy this as well as anyone interested in learning more about Spyro speedrunning. We encourage people to ask questions in chat about Spyro games and why speedrunning them is fun.
+              </dd>
+              <hr>
+              <small>
+                The site is in progress and will be updated in the coming weeks. If you'd like to suggest any extra runs, or join one of the already placed runs as a race, message one of us on Discord: <strong>faulty#7958</strong>, <strong>Phoenix#0352</strong>, or <strong>Venom#8681</strong>.
+              </small>
+            </dl>
+          </div>
+
+          <div class="schedule">
+            <h1 class="page-header">Schedule</h1>
+
+            <div class="schedule-list">
+              <template id="schedule_element_template">
+                <div class="schedule-element">
+                  <span class="datetime">
+                    <span class="time"></span>
+                    <span class="date"></span>
+                  </span>
+                  <span class="info">
+                    <span class="game"></span>
+                    <span class="category"></span>
+                    <span class="runners"></span>
+                    <span class="commentators"></span>
+                  </span>
+                </div>
+              </template>
+            </div>
+          </div>
+        </content>
+      </div>
+    </div>
   </body>
+
+  <script src="js/moment.min.js"></script>
+  <script src="js/schedule.js"></script>
 </html>

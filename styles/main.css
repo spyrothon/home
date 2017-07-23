@@ -1,0 +1,238 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Skolar Sans Latin, Helvetica Neue, Arial;
+  background-color: #5a3463;
+  color: #fff;
+  line-height: 1.5em;
+}
+
+hr {
+  margin-top: 24px;
+  border-color: #c4adca;
+}
+
+small {
+  color: #c4adca;
+}
+
+.widthed {
+  display: block;
+  width: 85%;
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+nav.navbar-component {
+  position: fixed;
+  top: 0;
+  height: 60px;
+  width: 100%;
+  text-shadow: 1px 1px 4px #000;
+  background: rgba(31,18,33,0.7);
+  border-bottom: 2px solid rgba(255,255,255, 0.5);
+}
+
+.navbar-component .navigation {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  width: 100%;
+}
+
+.navbar-component a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 1em;
+  margin-right: 24px;
+}
+
+.navbar-component a.brand {
+  font-size: 24px;
+}
+
+.navbar-component .right {
+  margin-left: auto;
+}
+
+.navbar-component .right + .right {
+  margin-left: 24px;
+}
+
+.navbar-component .right:last-child {
+  margin-right: 0;
+}
+
+.banner {
+  height: 100vh;
+  width: 100vw;
+  background-image: url('../assets/full_bg.png');
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.title {
+  padding-top: 16vh;
+}
+
+@media(min-width: 900px) {
+  .title {
+    padding-top: 8vh;
+  }
+}
+
+
+.content content {
+  display: block;
+}
+
+.content .about {
+  flex: 1 1 50%;
+  margin-right: 24px;
+}
+
+.content .schedule {
+  flex: 1 1 50%;
+  margin-bottom: 20px;
+}
+
+
+@media(min-width: 900px) {
+  .content content {
+    display: flex;
+    min-height: 100vh;
+    padding-top: 80px;
+    margin-bottom: 20px;
+  }
+
+  .content .about {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .content .schedule {
+    width: 100%;
+    overflow: visible;
+  }
+
+  .content .schedule .schedule-list {
+    height: 520px;
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+
+  .content .schedule .schedule-list::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+
+.page-header {
+  margin: 0;
+  margin-bottom: 24px;
+  padding: 0;
+  padding-top: 16px;
+  border-bottom: 1px solid #c4adca;
+  font-size: 44px;
+  font-weight: normal;
+  line-height: 1.5em;
+  color: #c4adca;
+}
+
+
+.faq {
+
+}
+
+.faq dt {
+  font-size: 22px;
+  line-height: 1.3em;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.faq dd {
+  margin: 0;
+  color: #c4adca;
+}
+
+.schedule-element {
+  display: flex;
+  width: 100%;
+  padding: 4px 0;
+  background: inherit;
+  cursor: default;
+  transition: 0.2s ease-out;
+}
+
+.schedule-element:hover {
+  background-color: rgba(255,255,255,0.2);
+  transition: 0.2s ease-in;
+}
+
+.schedule-element .datetime {
+  flex: 0 0 70px;
+  margin-right: 16px;
+}
+
+.schedule-element .datetime .time {
+  display: block;
+  text-align: right;
+}
+
+.schedule-element .datetime .date {
+  display: block;
+  text-align: right;
+  color: #c4adca;
+}
+
+.schedule-element .info .game {
+  font-weight: bold;
+  display: block;
+}
+
+.schedule-element .info .category {
+  font-weight: normal;
+  color: #c4adca;
+  margin-right: 4px;
+}
+
+.schedule-element .info .category a {
+  color: #c4adca;
+  text-decoration: none;
+}
+
+.schedule-element .info .category a:hover {
+  text-decoration: underline;
+}
+
+.schedule-element .info .runners {
+}
+
+.schedule-element .info .runners a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.schedule-element .info .runners a:hover {
+  text-decoration: underline;
+}
+
+.schedule-element .info .commentators {
+  color: #c4adca;
+}
+
+.schedule-element .info .commentators a {
+  color: #c4adca;
+  text-decoration: none;
+}
+
+.schedule-element .info .commentators a:hover {
+  text-decoration: underline;
+}
