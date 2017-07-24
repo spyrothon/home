@@ -225,7 +225,7 @@ var runs = [
     "game": "Spyro: Enter the Dragonfly",
     "category": "100%",
     "link": "spyroetd#100",
-    "datetime": moment("2017-08-12T03:15:00Z"),
+    "datetime": moment("2017-08-12T15:15:00Z"),
     "runners": [
       { "name": "Yeswally1", "twitch": "yeswally1" }
     ]
