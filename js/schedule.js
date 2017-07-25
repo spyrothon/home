@@ -52,7 +52,7 @@ var runs = [
     "link": "spyro2#Any",
     "datetime": moment("2017-08-11T23:50:00Z"),
     "runners": [
-      { "name": "Venom", "twitch": "venomynous" }
+      { "name": "Lewisb99_", "twitch": "lewisb99_" }
     ],
     "commentators": [
       { "name": "Spudlyman", "twitch": "spudlyman" }
@@ -163,23 +163,23 @@ var runs = [
   },
   {
     "game": "Spyro 2: Ripto's Rage",
-    "category": "40 Orb",
-    "link": "spyro2#40_Orb",
-    "datetime": moment("2017-08-12T06:10:00Z"),
-    "runners": [
-      { "name": "Lewisb99", "twitch": "lewisb99" }
-    ]
-  },
-  {
-    "game": "Spyro 2: Ripto's Rage",
     "category": "40 Orb (Boss Skips)",
     "link": "spyro2#40_Orb_Boss_Skips",
-    "datetime": moment("2017-08-12T07:05:00Z"),
+    "datetime": moment("2017-08-12T06:10:00Z"),
     "runners": [
       { "name": "FalcoEagle", "twitch": "falcoeagle" }
     ],
     "commentators": [
       { "name": "Dact", "twitch": "dactyly" }
+    ]
+  },
+  {
+    "game": "Spyro 2: Ripto's Rage",
+    "category": "40 Orb",
+    "link": "spyro2#40_Orb",
+    "datetime": moment("2017-08-12T06:55:00Z"),
+    "runners": [
+      { "name": "Lewisb99", "twitch": "lewisb99_" }
     ]
   },
   {
