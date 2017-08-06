@@ -52,7 +52,7 @@ var runs = [
     "link": "spyro2#Any",
     "datetime": moment("2017-08-11T23:50:00Z"),
     "runners": [
-      { "name": "Lewisb99_", "twitch": "lewisb99_" }
+      { "name": "Lewisb99", "twitch": "lewisb99_" }
     ],
     "commentators": [
       { "name": "Spudlyman", "twitch": "spudlyman" }
@@ -64,8 +64,8 @@ var runs = [
     "link": "spyro3#Any",
     "datetime": moment("2017-08-12T00:10:00Z"),
     "runners": [
-      { "name": "parsoFish", "twitch": "parsoFish" },
-      { "name": "faulty", "twitch": "amfaulty" }
+      { "name": "ParsoFish", "twitch": "parsoFish" },
+      { "name": "Faulty", "twitch": "amfaulty" }
     ]
   },
   {
@@ -137,7 +137,7 @@ var runs = [
     "link": "spyro3#Bone_Dance",
     "datetime": moment("2017-08-12T04:30:00Z"),
     "runners": [
-      { "name": "parsoFish", "twitch": "parsoFish" },
+      { "name": "ParsoFish", "twitch": "parsoFish" },
       { "name": "Grant", "twitch": "grantchil" }
     ]
   },
@@ -147,7 +147,7 @@ var runs = [
     "link": "spyrofusion#Beat_Cortex",
     "datetime": moment("2017-08-12T04:50:00Z"),
     "runners": [
-      { "name": "ikkatosh23", "twitch": "ikkatosh23" }
+      { "name": "Ikkatosh23", "twitch": "ikkatosh23" }
     ]
   },
   {
@@ -156,9 +156,9 @@ var runs = [
     "link": "spyro2#14_Talisman",
     "datetime": moment("2017-08-12T05:35:00Z"),
     "runners": [
-      { "name": "domdomzbm", "twitch": "domdomzbm" },
+      { "name": "Domdomzbm", "twitch": "domdomzbm" },
       { "name": "Walkers12", "twitch": "walkers12" },
-      { "name": "vSnake", "twitch": "v_snake_" }
+      { "name": "VSnake", "twitch": "v_snake_" }
     ]
   },
   {
@@ -188,7 +188,7 @@ var runs = [
     "link": "spyro3#100_Egg",
     "datetime": moment("2017-08-12T07:50:00Z"),
     "runners": [
-      { "name": "nerf", "twitch": "nerfripp" }
+      { "name": "Nerf", "twitch": "nerfripp" }
     ],
     "commentators": [
       { "name": "Dact", "twitch": "dactyly" }
@@ -236,7 +236,7 @@ var runs = [
     "link": "spyro1#120",
     "datetime": moment("2017-08-12T18:35:00Z"),
     "runners": [
-      { "name": "saboom", "twitch": "ssbmstuff" }
+      { "name": "Saboom", "twitch": "ssbmstuff" }
     ]
   },
   {
@@ -257,7 +257,7 @@ var runs = [
     "link": "spyro3#117",
     "datetime": moment("2017-08-12T22:00:00Z"),
     "runners": [
-      { "name": "notvanni", "twitch": "notvanni" }
+      { "name": "Notvanni", "twitch": "notvanni" }
     ]
   },
 ];
