@@ -64,7 +64,6 @@ var runs = [
     "link": "spyro3#Any",
     "datetime": moment("2017-08-12T00:10:00Z"),
     "runners": [
-      { "name": "ParsoFish", "twitch": "parsoFish" },
       { "name": "Faulty", "twitch": "amfaulty" }
     ]
   },
