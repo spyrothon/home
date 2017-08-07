@@ -119,7 +119,7 @@ var runs = [
     "link": "spyro2#Stand_On_10_Portals",
     "datetime": moment("2017-08-12T04:10:00Z"),
     "runners": [
-      { "name": "TOTOzigemm", "twitch": "totozigemm" }
+      { "name": "Walkers12", "twitch": "walkers12" }
     ]
   },
   {
@@ -156,10 +156,12 @@ var runs = [
     "link": "spyro2#14_Talisman",
     "datetime": moment("2017-08-12T05:35:00Z"),
     "runners": [
-      { "name": "Domdomzbm", "twitch": "domdomzbm" },
+      { "name": "zbm", "twitch": "domdomzbm" },
       { "name": "Walkers12", "twitch": "walkers12" },
       { "name": "VSnake", "twitch": "v_snake_" }
-    ]
+    ],
+    "commentators": [
+      { "name": "Martyrr", "twitch": "martyrrsenpai" }
   },
   {
     "game": "Spyro 2: Ripto's Rage",
@@ -248,7 +250,7 @@ var runs = [
       { "name": "AlexDest", "twitch": "alexdest" }
     ],
     "commentators": [
-      { "name": "Venom", "twitch": "venomynous" }
+      { "name": "Tyzerra", "twitch": "tyzerra" }
     ]
   },
   {
