@@ -162,6 +162,7 @@ var runs = [
     ],
     "commentators": [
       { "name": "Martyrr", "twitch": "martyrrsenpai" }
+    ]
   },
   {
     "game": "Spyro 2: Ripto's Rage",
