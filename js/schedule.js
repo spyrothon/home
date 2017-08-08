@@ -190,10 +190,10 @@ var runs = [
     "link": "spyro3#100_Egg",
     "datetime": moment("2017-08-12T07:50:00Z"),
     "runners": [
-      { "name": "Nerf", "twitch": "nerfripp" }
+      { "name": "Dact", "twitch": "dactyly" }
     ],
     "commentators": [
-      { "name": "Dact", "twitch": "dactyly" }
+      { "name": "Nerf", "twitch": "nerfripp" }
     ]
   },
   {
