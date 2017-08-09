@@ -67,6 +67,7 @@ var runs = [
       { "name": "faulty", "twitch": "amfaulty" }
     ],
     "commentators": [
+      { "name": "Dact", "twitch": "dactyly" },
       { "name": "jeremythompson", "twitch": "jeremythompson" }
     ]
   },
