@@ -72,21 +72,15 @@ var runs = [
     ]
   },
   {
-    "game": "Spyro: Enter the Dragonfly",
-    "link": "spyroetd#Any_No_Early_Ripto",
-    "category": "Any% (No Early Ripto)",
+    "game": "Spyro 2: Ripto's Rage",
+    "category": "Blackout",
+    "link": "",
     "datetime": moment("2017-08-12T00:50:00Z"),
     "runners": [
-      { "name": "Yeswally1", "twitch": "yeswally1" }
-    ]
-  },
-  {
-    "game": "Spyro: Enter the Dragonfly",
-    "category": "Any%",
-    "link": "spyroetd#Any",
-    "datetime": moment("2017-08-12T02:20:00Z"),
-    "runners": [
-      { "name": "Yeswally1", "twitch": "yeswally1" }
+      { "name": "Alex", "twitch": "alexdest" },
+      { "name": "Beuchi", "twitch": "beuchiism" },
+      { "name": "Spudly", "twitch": "Spudlyman" },
+      { "name": "Venom", "twitch": "venomynous"
     ]
   },
   {
