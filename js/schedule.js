@@ -74,7 +74,7 @@ var runs = [
   {
     "game": "Spyro 2: Ripto's Rage",
     "category": "Blackout",
-    "link": "",
+    "link": "spyro2",
     "datetime": moment("2017-08-12T00:50:00Z"),
     "runners": [
       { "name": "Alex", "twitch": "alexdest" },
@@ -222,28 +222,28 @@ var runs = [
     ]
   },
   {
-    "game": "Spyro: Enter the Dragonfly",
-    "category": "100%",
-    "link": "spyroetd#100",
+    "game": "Spyro: Year of the Dragon",
+    "category": "149 Egg",
+    "link": "spyro3#149_Egg",
     "datetime": moment("2017-08-12T15:15:00Z"),
     "runners": [
-      { "name": "Yeswally1", "twitch": "yeswally1" }
+      { "name": "Wedc517", "twitch": "wedc517" }
     ]
   },
   {
     "game": "Spyro the Dragon",
     "category": "120%",
     "link": "spyro1#120",
-    "datetime": moment("2017-08-12T18:35:00Z"),
+    "datetime": moment("2017-08-12T17:40:00Z"),
     "runners": [
-      { "name": "Saboom", "twitch": "ssbmstuff" }
+      { "name": "Gazco41", "twitch": "gazco41" }
     ]
   },
   {
     "game": "Spyro 2: Ripto's Rage",
     "category": "100%",
     "link": "spyro2#100",
-    "datetime": moment("2017-08-12T20:10:00Z"),
+    "datetime": moment("2017-08-12T19:15:00Z"),
     "runners": [
       { "name": "AlexDest", "twitch": "alexdest" }
     ],
@@ -255,7 +255,7 @@ var runs = [
     "game": "Spyro: Year of the Dragon",
     "category": "117%",
     "link": "spyro3#117",
-    "datetime": moment("2017-08-12T22:00:00Z"),
+    "datetime": moment("2017-08-12T21:05:00Z"),
     "runners": [
       { "name": "Notvanni", "twitch": "notvanni" }
     ]
