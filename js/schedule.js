@@ -80,7 +80,7 @@ var runs = [
       { "name": "Alex", "twitch": "alexdest" },
       { "name": "Beuchi", "twitch": "beuchiism" },
       { "name": "Spudly", "twitch": "Spudlyman" },
-      { "name": "Venom", "twitch": "venomynous"
+      { "name": "Venom", "twitch": "venomynous" }
     ]
   },
   {
