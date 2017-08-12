@@ -116,7 +116,7 @@ var runs = [
     "link": "spyro2#Stand_On_10_Portals",
     "datetime": moment("2017-08-12T04:10:00Z"),
     "runners": [
-      { "name": "Walkers12", "twitch": "walkers12" }
+      { "name": "ParsoFish", "twitch": "parsofish" }
     ]
   },
   {
@@ -154,7 +154,6 @@ var runs = [
     "datetime": moment("2017-08-12T05:35:00Z"),
     "runners": [
       { "name": "zbm", "twitch": "domdomzbm" },
-      { "name": "Walkers12", "twitch": "walkers12" },
       { "name": "VSnake", "twitch": "v_snake_" }
     ],
     "commentators": [
