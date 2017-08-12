@@ -153,7 +153,7 @@ var runs = [
     "link": "spyro2#14_Talisman",
     "datetime": moment("2017-08-12T05:35:00Z"),
     "runners": [
-      { "name": "zbm", "twitch": "domdomzbm" },
+      { "name": "Jumpyluff", "twitch": "jumpyluff" },
       { "name": "VSnake", "twitch": "v_snake_" }
     ],
     "commentators": [
